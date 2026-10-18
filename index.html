@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Alvina ❤️</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#08090c;color:#fff4e9;
+ font-family:Arial,sans-serif;text-align:center;
+ background-image:radial-gradient(ellipse at top right,#64101b66,transparent 45%);
+}
+header{padding:70px 20px 35px}
+.tag{color:#f7cf79;letter-spacing:4px;font-size:12px}
+h1{font-size:clamp(50px,10vw,100px);margin:25px 0 15px;letter-spacing:-4px}
+h1 span{color:#ed2437}
+p{line-height:1.9;color:#d2c8c9}
+.intro{max-width:650px;margin:auto;padding:0 20px}
+button{
+ padding:15px 24px;border:0;border-radius:6px;
+ background:linear-gradient(135deg,#ff3041,#a60016);
+ color:white;font-weight:bold;cursor:pointer;margin:12px;
+}
+button:hover{transform:translateY(-2px)}
+.car{max-width:650px;width:90%;margin:30px auto}
+section{padding:55px 20px}
+.card{
+ max-width:850px;margin:25px auto;padding:35px;
+ text-align:left;line-height:2;
+ border:1px solid #ffffff20;border-radius:16px;
+ background:linear-gradient(135deg,#240b10,#141116);
+}
+h2{font-size:36px}
+.gold{color:#f7cf79}
+footer{padding:30px;color:#999;font-size:12px}
+#confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.piece{position:absolute;top:-20px;animation:fall linear forwards}
+@keyframes fall{
+ to{transform:translate(var(--drift),110vh) rotate(720deg)}
+}
+@keyframes heartbeat{
+ 50%{transform:scale(1.15)}
+}
+.heart{display:inline-block;color:#ed2437;animation:heartbeat 1s infinite}
+@media(max-width:600px){
+ header{padding-top:50px}h1{letter-spacing:-2px}
+ .card{padding:23px}
+}
+</style>
+</head>
+<body>
+<div id="confetti"></div>
+
+<header>
+ <div class="tag">✦ A SPECIAL DAY ✦</div>
+ <h1>HAPPY BIRTHDAY<br><span>Alvina</span> <b class="heart">♥</b></h1>
+
+ <p class="intro">
+ Aaj ka din bohat special hai, kyun ke aaj ek bohat special insan ka birthday hai.
+ May your world be full of happiness, beautiful surprises, and unforgettable moments.
+ </p>
+
+ <button onclick="celebrate(200)">LET'S CELEBRATE ✨</button>
+ <button onclick="document.getElementById('wish').scrollIntoView({behavior:'smooth'})">
+ READ YOUR WISH ↓
+ </button>
+
+ <div class="car">
+ <!-- Decorative Porsche-inspired sports car illustration -->
+ <svg viewBox="0 0 700 220" width="100%" aria-label="Red luxury sports car">
+ <defs>
+  <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+   <stop stop-color="#ff5260"/>
+   <stop offset="1" stop-color="#79000e"/>
+  </linearGradient>
+ </defs>
+ <ellipse cx="350" cy="190" rx="260" ry="15" fill="#e51b2b" opacity=".25"/>
+ <path d="M55 155 L90 125 L205 105 L280 55 Q300 40 345 40
+ L425 42 Q465 45 500 85 L555 115 L640 132 L665 158
+ L655 175 L80 175 Z" fill="url(#red)" stroke="#ff7880" stroke-width="2"/>
+ <path d="M225 103 L285 62 Q305 49 340 49 L365 49 L365 105Z"
+ fill="#202a35" stroke="#aab2bb"/>
+ <path d="M380 49 L425 51 Q452 53 477 82 L495 105 L380 105Z"
+ fill="#202a35" stroke="#aab2bb"/>
+ <path d="M375 49V108" stroke="#f5a6ab" stroke-width="3"/>
+ <path d="M72 150L135 142L150 154L80 161Z" fill="#fff0ce"/>
+ <path d="M570 142L642 150L653 159L590 158Z" fill="#ffb5a0"/>
+ <g fill="#090a0d" stroke="#777" stroke-width="4">
+  <circle cx="190" cy="169" r="35"/><circle cx="545" cy="169" r="35"/>
+ </g>
+ <g fill="#252a31" stroke="#ddd" stroke-width="3">
+  <circle cx="190" cy="169" r="20"/><circle cx="545" cy="169" r="20"/>
+ </g>
+ <g stroke="#c8ae70" stroke-width="3">
+  <path d="M190 151V187M172 169H208M545 151V187M527 169H563"/>
+ </g>
+ <text x="350" y="215" fill="#f7cf79" font-size="10"
+ text-anchor="middle" letter-spacing="5">BORN TO SHINE</text>
+ </svg>
+ </div>
+</header>
+
+<section id="wish">
+ <div class="tag">A NOTE JUST FOR YOU</div>
+ <h2>Dear Alvina, <span class="heart">♥</span></h2>
+
+ <div class="card">
+ Aaj aapka din hai, aur meri dua hai ke aapki zindagi ka har naya saal
+ pehle se zyada khoobsurat ho. ✨
+ <br><br>
+ Allah aapko hamesha khush rakhe, aapki har achi khwahish poori ho,
+ aur aapke chehre ki muskurahat kabhi kam na ho.
+ Aapko zindagi mein woh sab mile jo aapke dil ko sukoon aur khushi de.
+ <br><br>
+ <strong class="gold">Hamesha yaad rakhein:</strong>
+ aap special hain, aapki smile special hai, aur aapki khushi bohat matter karti hai.
+ Aaj ka din dil khol kar enjoy karein — you deserve all the good things in life!
+ <br><br>
+ <span style="color:#ed2437;font-weight:bold">HAPPY BIRTHDAY, ALVINA ♡</span>
+ </div>
+
+ <div class="card">
+  <div class="tag">A LITTLE REMINDER</div>
+  <h2 class="gold">A beautiful wish ✨</h2>
+  <p>
+   Aapki zindagi khushiyon se bhari rahe, har khwab haqeeqat bane,
+   aur har din aapke liye ek nayi beautiful beginning ho.
+  </p>
+  <p>
+   May your next chapter bring confidence, peace, laughter,
+   loyal people, and memories worth keeping forever.
+  </p>
+  <p class="gold">✦ ✧ ♥ ✧ ✦</p>
+ </div>
+</section>
+
+<section>
+ <div class="tag">YOUR NEXT CHAPTER</div>
+ <h1 style="color:#f7cf79">365</h1>
+ <h2>New chances to shine.</h2>
+ <p class="intro">
+ Naya saal, naye dreams, naye adventures — aur bohat saari wajahen
+ muskurane ki. Keep shining, Alvina. The road ahead is yours.
+ </p>
+ <button onclick="celebrate(250)">MORE CONFETTI 🎉</button>
+</section>
+
+<footer>MADE WITH <span style="color:#ed2437">♥</span> FOR ALVINA</footer>
+
+<script>
+function celebrate(amount){
+ const layer=document.getElementById('confetti');
+ const colors=['#e51b2b','#f7cf79','#fff4e9','#f06b77','#b99149'];
+
+ for(let i=0;i<amount;i++){
+  const p=document.createElement('i');
+  p.className='piece';
+  p.style.left=Math.random()*100+'vw';
+  p.style.background=colors[Math.floor(Math.random()*colors.length)];
+  p.style.width=(5+Math.random()*7)+'px';
+  p.style.height=(8+Math.random()*10)+'px';
+  p.style.borderRadius=Math.random()>.5?'50%':'2px';
+  p.style.setProperty('--drift',(Math.random()*200-100)+'px');
+  p.style.animationDuration=(3+Math.random()*4)+'s';
+  p.style.animationDelay=Math.random()+'s';
+  layer.appendChild(p);
+  p.addEventListener('animationend',()=>p.remove());
+ }
+}
+window.addEventListener('load',()=>celebrate(100));
+</script>
+</body>
+</html>
